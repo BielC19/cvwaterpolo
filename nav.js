@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const navMenu = `
     <ul>
-    <li><a id="index" class="primer" href="index.html">Home</a></li>
-    <li><a id="m_leter" class="segon" href="m_leter.html">Sobre mi</a></li>
-    <li><a id="docs" class="tercer" href="docs.html">Documents</a></li>
+    <li><a id="index" class="primer" href="index">Home</a></li>
+    <li><a id="m_leter" class="segon" href="m_leter">Sobre mi</a></li>
+    <li><a id="docs" class="tercer" href="docs">Documents</a></li>
     </ul>
     `
     const navContainer = document.getElementById("barr")
