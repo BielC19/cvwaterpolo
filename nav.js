@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const navMenu = `
     <ul>
-    <li><a id="index" class="primer" href="index">Home</a></li>
+    <li><a id="index" class="primer" href="index">Inici</a></li>
     <li><a id="m_leter" class="segon" href="m_leter">Sobre mi</a></li>
     <li><a id="docs" class="tercer" href="docs">Documents</a></li>
     </ul>
