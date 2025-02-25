@@ -18,7 +18,13 @@ body{
     display: block;
     position: relative;
     background-color: var(--fons);
-
+    
+}
+h1, h2{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+p, li, ul, ol{
+    font-family: 'Raleway', sans-serif;
 }
 .ordre{
     display: flex;
@@ -64,7 +70,6 @@ ul {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-
 }
 li {
     list-style: none;
@@ -80,10 +85,13 @@ nav a {
     font-weight: bolder;
 }
 
-#segon{
-    margin-left: 3em;
+.color{
+    color: var(--name);
 }
-#tercer{
+.segon{
+    margin-left: 3em !important;
+}
+.tercer{
     margin-left: 3em;
     margin-right: 3em;
 }
@@ -96,6 +104,8 @@ footer{
 
 }
 footer button img{
+    position: relative;
+    top: 0.5em;
     width: 24px;
     height: 24px;
     fill: none;
@@ -127,10 +137,14 @@ footer button img{
     color: var(--onyx);
     font-size: var(--text-size-s);
     background-color: var(--card-background-color);
-    padding: 1rem;
+    padding: 0.3rem 1rem 1rem 1rem !important;
     border-radius: 64px;
     cursor: pointer;
     transition: var(--box-shadow-transition);
+}
+.noespaiup {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 @media screen and (max-width: 600px) {
     body {
@@ -192,10 +206,10 @@ footer button img{
         font-size: 13px;
     }
     
-    #segon{
+    .segon{
         margin-left: 3em;
     }
-    #tercer{
+    .tercer{
         margin-left: 3em;
         margin-right: 3em;
     }

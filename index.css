@@ -43,6 +43,9 @@ h1 span{
     margin-top: 7em;
     border-radius: 999px;
 }
+#arrda {
+    margin-left: 0.87em;
+}
 @media screen and (max-width: 600px) {
     header {
         background-image: --fons_header;
